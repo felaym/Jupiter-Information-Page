@@ -1,0 +1,239 @@
+address {
+    color: #364727;
+    font-size: large;
+    font-weight: bold;
+}
+
+address p strong {
+    color: darkgreen;
+}
+
+#link-to_wiki:hover {
+    color: rgb(252, 53, 53);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#link-to_wiki {
+    color: darkolivegreen
+}
+
+#link-to_wiki:visited {
+    color: rgb(121, 43, 230);
+}
+
+body {
+    background-color: papayawhip;
+    background-size: cover;
+}
+
+
+thead {
+    background-color: rgb(159, 159, 159);
+}
+
+button {
+    background-color: darkgrey;
+}
+
+input {
+    background-color: burlywood;
+    color: black;
+    width: 150px;
+    height: 20px;
+}
+
+#Questions_about {
+    font-weight: bolder;
+}
+
+.input_color_inside {
+    color: red;
+}
+
+.input_color_inside:focus {
+    color: rgb(50, 50, 132);
+} 
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+body {
+    text-align: justify;
+}
+
+#submit_button {
+    display: block;
+    padding: 0 50px;
+    color: #ffffff;
+    font: 15px/35px "Pxima Nova", sans-serif;
+    background: sienna;
+    border-radius: 50px;
+    /* float: left; */
+    cursor: pointer;
+}
+
+#submit_button:hover {
+    background-color: rgb(104, 52, 28);
+}
+
+#reset_button {
+    display: block;
+    padding: 0 54px;
+    color: #ffffff;
+    font: 15px/35px "Pxima Nova", sans-serif;
+    background: sandybrown;
+    border-radius: 50px;
+    position: relative;
+    left: 160px;
+    top: -77px;
+    /* float: left; */
+    cursor: pointer;
+}
+
+#reset_button:hover {
+    background-color: rgb(186, 125, 72);
+}
+
+table {
+    border-collapse: collapse;
+    background-color: peachpuff;
+    text-align: center;
+    position: relative;
+    right: -427px;
+}
+
+.jupiter-gif {
+    position: relative;
+    right: -427px;
+}
+
+td {
+    border: solid black;
+}
+
+th {
+    border: solid rgb(89, 57, 57);
+    background-color: rgb(209, 130, 99);
+}
+
+h1 {
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+}
+
+#photo_jupiter {
+    position: relative;
+    left: 170px;
+    top: -280px;
+    width: 250px;
+    background: none;
+    user-select: none;
+    /* float: left; */
+}
+
+.after_facts_about_jupiter {
+    position: relative;
+    top: -270px;
+}
+
+#facts_about_jupiter {
+    text-align: justify;
+    position: relative;
+    right: -730px;
+    top: 10px;
+}
+
+.last_paragraph {
+    position: relative;
+    top: -50px;
+}
+
+* {
+    margin: 10px;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#begginning_page {
+    list-style: none;
+    text-align: end;
+    display: inline-block;
+    padding: 0 22px;
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: burlywood;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#begginning_page:hover {
+    background-color: rgb(176, 147, 108);
+}
+
+#contacts_button {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contacts {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0 22px;
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: burlywood;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#contacts:hover {
+    background-color: rgb(176, 147, 108);
+}
+
+#about_us_button {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#about_us {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0 22px;
+    color: #ffffff;
+    font: 14px/40px "Proxima Nova", sans-serif;
+    background: burlywood;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#about_us:hover {
+    background-color: rgb(176, 147, 108);
+}
+
+.menu {
+    position: relative;
+    left: 330px;
+    top: -20px;
+}
+
+*::selection {
+    background: rgb(105, 90, 72); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+   }
